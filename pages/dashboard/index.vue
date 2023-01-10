@@ -12,7 +12,7 @@
                     <h2 class="text-4xl text-gray-900 mb-2 font-medium">Dashboard</h2>
                     <ul class="flex mt-2">
                         <li class="mr-6">
-                            <a class="text-gray-800 font-bold" href="#">Your Projects</a>
+                            <nuxt-link class="text-gray-800 font-bold" to="/dashboard">Your Projects</nuxt-link>
                         </li>
                         <li class="mr-6">
                             <nuxt-link class="text-gray-500 hover:text-gray-800" to="/dashboard/transactions">
