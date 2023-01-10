@@ -45,6 +45,7 @@
           <img src="/line-step.svg" alt="" class="w-full" />
         </div>
       </div>
+
       <div class="flex justify-between items-center text-center">
         <div class="w-1/3">
           <figure class="flex justify-center items-center">
@@ -57,6 +58,7 @@
             </p>
           </div>
         </div>
+
         <div class="w-1/3">
           <figure class="flex justify-center items-center -mt-24">
             <img src="/step-2-illustration.svg" alt="" class="h-30 mb-8" />
@@ -69,6 +71,7 @@
             </p>
           </div>
         </div>
+
         <div class="w-1/3">
           <figure class="flex justify-center items-center -mt-48">
             <img src="/step-3-illustration.svg" alt="" class="h-30 mb-8" />
@@ -83,6 +86,7 @@
         </div>
       </div>
     </section>
+
     <section class="container mx-auto pt-24">
       <div class="flex justify-between items-center">
         <div class="w-auto">
@@ -92,11 +96,12 @@
           </h2>
         </div>
         <div class="w-auto mt-5">
-          <a class="text-gray-900 hover:underline text-md font-medium" href=""
-            >View All</a
-          >
+          <a class="text-gray-900 hover:underline text-md font-medium" href="#">
+            View All
+          </a>
         </div>
       </div>
+
       <div class="flex mt-3 -mx-6">
         <div
           class="card-project w-1/3 mx-6 my-4 p-5 border border-gray-500 rounded-20"
@@ -109,6 +114,7 @@
                 class="rounded-20 w-full"
               />
             </figure>
+
             <div class="item-meta">
               <h4 class="text-3xl font-medium text-gray-900 mt-5">
                 Robotic Hand
@@ -131,14 +137,15 @@
                 <div class="ml-auto font-semibold">Rp 100.000.000</div>
               </div>
             </div>
-            <a
-              href="/projects.html"
+            <nuxt-link
+              to="/projects/1"
               class="text-center mt-5 button-cta block w-full bg-orange-button hover:bg-green-button text-white font-semibold px-6 py-2 text-lg rounded-full"
             >
               Fund Now
-            </a>
+            </nuxt-link>
           </div>
         </div>
+
         <div
           class="card-project w-1/3 mx-6 my-4 p-5 border border-gray-500 rounded-20"
         >
